@@ -74,7 +74,7 @@ class App extends React.Component {
       );
     }
 
-    if (this.state.buttonClicked === "grades") {
+    if(this.state.buttonClicked === "grades") {
       tabChoice = (
         <Table
           tableNames={this.state.assignments}
