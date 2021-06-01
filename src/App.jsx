@@ -1,5 +1,6 @@
 import React from "react";
 import Table from "./Table";
+import List from "./List";
 /*Add import statement here*/
 
 class App extends React.Component {
@@ -99,6 +100,7 @@ class App extends React.Component {
               onClick={() => this.handleButtonClicked("assignments")}
             >
               Assignments
+              <List/>
             </button>
             <button
               className="btn btn-primary"
